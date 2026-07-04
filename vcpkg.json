@@ -1,0 +1,12 @@
+{
+  "name": "password-manager",
+  "version": "0.1.0",
+  "description": "Standalone offline password manager for Windows",
+  "builtin-baseline": "32305df7d0b9a308e6ac454dd98ebfe550342c09",
+  "dependencies": [
+    "libsodium",
+    "sqlcipher",
+    "nlohmann-json",
+    "catch2"
+  ]
+}

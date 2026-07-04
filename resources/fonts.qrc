@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/">
+    <file>fonts/HankenGrotesk-Variable.ttf</file>
+    <file>fonts/JetBrainsMono-Regular.ttf</file>
+    <file>fonts/JetBrainsMono-Bold.ttf</file>
+  </qresource>
+</RCC>

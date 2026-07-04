@@ -1,0 +1,99 @@
+# ─────────────────────────────────────────────
+# Secrets & environment
+# ─────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+*.keystore
+*.p12
+secrets/
+credentials.json
+
+# Password manager data / vaults — NEVER commit
+*.vault
+*.kdbx
+*.pmbackup
+vault/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ─────────────────────────────────────────────
+# C++ / CMake / vcpkg
+# ─────────────────────────────────────────────
+build/
+out/
+CMakeUserPresets.json
+vcpkg_installed/
+compile_commands.json
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# ─────────────────────────────────────────────
+# Node / JavaScript / TypeScript
+# ─────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.npm/
+.pnp.*
+.yarn/
+
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# ─────────────────────────────────────────────
+# Logs & temp
+# ─────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ─────────────────────────────────────────────
+# OS files
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────
+# Editors / IDEs
+# ─────────────────────────────────────────────
+# Keep shared VS Code config, ignore the rest
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ─────────────────────────────────────────────
+# Local-only docs (keep on disk, never pushed)
+# ─────────────────────────────────────────────
+docs/

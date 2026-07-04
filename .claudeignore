@@ -1,0 +1,42 @@
+# Files Claude should ignore when reading/searching the project.
+
+# Secrets & environment — keep Claude away from real credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Password manager data / vaults
+*.vault
+*.kdbx
+*.pmbackup
+vault/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencies & build output (noise)
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+__pycache__/
+.venv/
+venv/
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+
+# Lockfiles (large, low signal)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
