@@ -7,6 +7,8 @@ SQLite (SQLCipher) database, unlocked with a master password.
 Built with **C++20 · Qt 6 Widgets · SQLCipher · libsodium**, using **CMake +
 vcpkg** in **VS Code**.
 
+![Unlock screen](assets/screenshot-unlock.png)
+
 📋 Design docs live in [`docs/`](docs/README.md) — start with
 [`docs/PLAN.md`](docs/PLAN.md) and [`docs/DATA-MODEL.md`](docs/DATA-MODEL.md).
 
